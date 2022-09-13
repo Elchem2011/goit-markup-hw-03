@@ -15,31 +15,31 @@
 
     <body>
     <header class="page-header">
-     <!--main-nav-->         
-
-      <nav class="container main-nav">
-
-        <!--logo-->
-        <a class="logo-nav" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+      <div class="container main-nav">
+               
+       <!--main-nav-->     
+        <nav class="navigation">
+           <!--logo-->
+          <a class="logo-nav" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
         
-        <!--navigation-->
-
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link current" href="./index.html">Студія</a>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Портфоліо</a>
-          </li>
-    
-          <li class="nav-item">
-            <a class="nav-link" href="#">Контакти</a>
-          </li>
-        </ul>
-      
-
-        <!-- Link to e-mail address phone number  -->
+            <!--navigation-->
+        
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link current" href="./index.html">Студія</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+        
+            <li class="nav-item">
+              <a class="nav-link" href="#">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        
+          <!-- Link to e-mail address phone number  -->
         <ul class="contact">
           <li class="contact-item">
             <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
@@ -48,8 +48,8 @@
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>       
-            
+        
+      </div>
     </header>
 
     <main>
@@ -67,46 +67,34 @@
 
       <section class="section">        
         <div class="container">
-          <h2 class="section-title">Наші переваги</h2>
-          <ul class="list">
-            <li class="item-sec">
-              <article class="cart">
-                <div class="card-thumb"></div>
-                <div class="card-content">
-                  <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                  <p class="list-item">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                </div>
-              </article>             
+          <h2 class="section-title title-hidden">Наші переваги</h2>
+          <ul class="list-sec">
+            <li class="item-sec">             
+              <div class="card-content">
+                <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="list-item">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+              </div>                        
             </li>
 
-            <li class="item-sec">
-              <article class="cart">
-                <div class="card-thumb"></div>
-                <div class="card-content">
-                   <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                   <p class="list-item">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                  </div>
-              </article>
+            <li class="item-sec">              
+              <div class="card-content">
+                <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="list-item">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+              </div>              
             </li>
           
-            <li class="item-sec">
-              <article class="cart">
-                <div class="card-thumb"></div>
-                <div class="card-content">
-                  <h3 class="title">ПЛАНУВАННЯ</h3>
-                  <p class="list-item">Так само консультація з широким активом значною мірою зумовлює.</p>
-                </div>
-              </article>
+            <li class="item-sec">                            
+              <div class="card-content">
+                <h3 class="title">ПЛАНУВАННЯ</h3>
+                <p class="list-item">Так само консультація з широким активом значною мірою зумовлює.</p>
+              </div>              
             </li>
 
-            <li class="item-sec">
-              <article class="cart">
-                <div class="card-thumb"></div>
-                <div class="card-content">
-                  <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                  <p class="list-item">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                </div>
-              </article>
+            <li class="item-sec">                            
+              <div class="card-content">
+                <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="list-item">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+              </div>              
             </li>
           </ul>
         </div>
@@ -115,32 +103,26 @@
 
     <!--Our work-->
 
-      <section class="section">
+      <section class="section-work">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="list">
+            <li class="work-card">              
+              <div class="card-thumb">
+                <img src="./images/box1.jpg" alt="Візуалізація"  />
+              </div>                          
+            </li>
+
             <li class="work-card">
-              <article class="cart">
-                <div class="card-thumb"><img src="./images/box1.jpg" alt="Візуалізація"  />
+              <div class="card-thumb">
+                <img src="./images/box2.jpg" alt="Мобільність"  />
+              </div>                             
+            </li>
+
+            <li class="work-card">                
+                <div class="card-thumb">
+                  <img src="./images/box3.jpg" alt="Дизайн"  />
                 </div>
-                <div class="card-content"></div>
-              </article>              
-            </li>
-
-            <li class="work-card">
-                <article class="cart">
-                  <div class="card-thumb"><img src="./images/box2.jpg" alt="Мобільність"  />
-                  </div>
-                  <div class="card-content"></div>
-                </article>                              
-            </li>
-
-            <li class="work-card">
-                <article class="cart">
-                  <div class="card-thumb"><img src="./images/box3.jpg" alt="Дизайн"  />
-                  </div>
-                  <div class="card-content"></div>
-                </article>
               </li>
           </ul>
         </div>     
@@ -151,49 +133,41 @@
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list">
-            <li class="team-card">
-              <article class="card">
-                <div class="card-thumb"><img src="./images/igordemyanenko.jpg" alt="Ігор Дем'яненко" width="270" />
-                </div>
-                <div class="descr">
-                  <h3 class="title">Ігор Дем'яненко</h3>
-                  <p class="team-position">Product Designer</p>
-                </div>
-              </article>           
+            <li class="team-card">              
+            <div class="card-thumb"><img src="./images/igordemyanenko.jpg" alt="Ігор Дем'яненко" width="270" />
+            </div>
+            <div class="descr">
+              <h3 class="title">Ігор Дем'яненко</h3>
+              <p class="team-position">Product Designer</p>
+            </div>                        
+            </li>
+
+            <li class="team-card">              
+              <div class="card-thumb">
+                <img src="./images/olgarepina.jpg" alt="Ольга Рєпіна" width="270" />
+              </div>
+              <div class="descr">
+                <h3 class="title">Ольга Рєпіна</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div>              
+            </li>
+
+            <li class="team-card">             
+              <div class="card-thumb"><img src="./images/mykolatarasov.jpg" alt="Микола Тарасов" width="270" />
+              </div>
+              <div class="descr">
+                <h3 class="title">Микола Тарасов</h3>
+                <p class="team-position">Marketing</p>
+              </div>
             </li>
 
             <li class="team-card">
-              <article class="card">
-                <div class="card-thumb">
-                  <img src="./images/olgarepina.jpg" alt="Ольга Рєпіна" width="270" />
-                </div>
-                <div class="descr">
-                  <h3 class="title">Ольга Рєпіна</h3>
-                  <p class="team-position">Frontend Developer</p>
-                </div>
-              </artical>
-            </li>
-
-            <li class="team-card">
-              <article class="card">
-                <div class="card-thumb"><img src="./images/mykolatarasov.jpg" alt="Микола Тарасов" width="270" />
-                </div>
-                <div class="descr">
-                  <h3 class="title">Микола Тарасов</h3>
-                  <p class="team-position">Marketing</p>
-                </div>
-              </article>
-            </li>
-
-            <li class="team-card">
-              <article class="card">
-                <div class="card-thumb"><img src="./images/mikhailoermakov.jpg" alt="Михайло Єрмаков" width="270" />
-                </div>
-                <div class="descr">
-                  <h3 class="title">Михайло Єрмаков</h3>
-                  <p class="team-position">Frontend Developer</p>
-                </div>
-               </article> 
+              <div class="card-thumb"><img src="./images/mikhailoermakov.jpg" alt="Михайло Єрмаков" width="270" />
+              </div>
+              <div class="descr">
+                <h3 class="title">Михайло Єрмаков</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div> 
             </li>
           </ul>
         </div>
