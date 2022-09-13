@@ -323,6 +323,8 @@ body {
 .btn {
   padding-top: 74px;
   padding-bottom: 114px;
+  margin-right: auto;
+  margin-left: auto;
 }
 /*div для кнопок*/
 
@@ -359,12 +361,23 @@ body {
 
 /*works*/
 
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .item-card {
   margin-left: 30px;
+  margin-bottom: 30px;
 }
 
 .item-card:nth-child(3n + 1) {
   margin-left: 0;
+}
+
+.item-card:nth-child(n + 7) {
+  margin-bottom: 0;
 }
 
 .card-content {
