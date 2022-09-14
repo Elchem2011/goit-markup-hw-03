@@ -14,9 +14,13 @@
   --card-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  --card-shadow-portfolio: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  
+  --card-shadow-portfolio: 0px 3px 1px 
+  rgba(0, 0, 0, 0.1), 0px 1px 2px 
+  rgba(0, 0, 0, 0.08), 0px 2px 2px
+   rgba(0, 0, 0, 0.12);
+   
 }
+
 
 ul {
   list-style: none;
@@ -58,8 +62,7 @@ body {
 }
 
 .page-header {
-  background-color: var(--primary-background-color);
-  border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 /*main-nav*/
@@ -184,8 +187,8 @@ body {
   border: none;
   padding: 10px 32px;
   min-width: 216px;
-
   border-radius: 4px;  
+
   cursor: pointer;
   font-family: inherit;
   font-size: 16px;
@@ -194,12 +197,15 @@ body {
   color: var(--white-text-color);
   font-weight: 700;
   background-color: var(--accent-color);
+  box-shadow: box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);;
 }
+
 
 .button:hover,
 .button:focus {
   background: #188CE8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 /*Наші переваги*/
@@ -324,7 +330,7 @@ body {
 
 /*Portfolio*/
 
-.btn {
+.section-btn {
   padding-top: 74px;
   padding-bottom: 114px;
   margin-right: auto;
