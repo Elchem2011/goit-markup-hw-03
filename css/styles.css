@@ -228,7 +228,7 @@ body {
 border-radius: 4px;
 }
 
-/*overlay*/
+/*overlay
 .overlay {
   max-width: 1600px;
   height: 600px;
@@ -236,7 +236,7 @@ border-radius: 4px;
   margin-right: auto;
   outline: 1px solid var(--logo-color);
 }
-
+*/
 
 /*Наші переваги*/
 
@@ -323,14 +323,22 @@ border-radius: 4px;
   margin-bottom: 30px;
   border-radius: 4px;
   justify-content: center;
+  align-items: center;
 
 }
 
 
 
-.icon-antenn {
+.icon-antenn,
+.icon-clock,
+icon-diagram,
+icon-astr {
   height: 70px;
   width: 70px;
+}
+
+.icon-antenna::before {
+  background-image: url("../images/icons.svg/clock\ 1.svg");
 }
 
 .icon-clock::before {
